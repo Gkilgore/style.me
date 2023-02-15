@@ -1,34 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- Start of head section -->
 
 <head>
+  <!-- Meta tags for character set, viewport, and IE compatibility -->
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <!-- Link to external stylesheet -->
   <link rel="stylesheet" href="style.css" />
+  <!-- Link to Bootstrap stylesheet -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
-
+  <!-- Title of the page -->
   <title>My.Inspiration</title>
 </head>
+<!-- End of head section -->
+
+<!-- Start of body section -->
 
 <body>
+  <!-- Top section with background image -->
   <div class="d-flex container-fluid" lc-helper="background" style="
         height: 50vh;
         background: url(https://images.opumo.com/wordpress/wp-content/uploads/2020/04/OPUMO-123-1024x682.jpg)
           center / cover no-repeat;
       "></div>
+  <!-- Main content section -->
   <div class="container p-5 bg-light rounded" style="margin-top: -100px">
     <div class="row">
+      <!-- Column with Dieter Rams name -->
       <div class="col-md-4 text-center align-self-center">
         <div class="lc-block">
           <p class="display-5 text-secondary">Dieter Rams</p>
         </div>
-        <!-- /lc-block -->
       </div>
-      <!-- /col -->
+      <!-- Column with Dieter Rams description -->
       <div class="col-md-8">
         <div class="lc-block">
+          <!-- Different display sizes for description -->
           <p class="d-none d-lg-block display-5 text-center text-lg-end text-break">
             Industrial Designer and the <br> creator of the Braun Style.
           </p>
@@ -39,24 +49,25 @@
             Industrial Designer and the creator of the Braun Style.
           </p>
         </div>
-        <!-- /lc-block -->
       </div>
-      <!-- /col -->
     </div>
-    <!-- Row of Cards-->
 
+    <!-- Cards section -->
     <div class="row g-lg-4">
       <div class="col-md-6">
         <div class="card rams-photo">
+          <!-- Card with a photo of Dieter Rams -->
           <img class="card-img-top rams-photo" src="img/DRams.jpg" alt="Photo of Dieter Rams"
             cite="https://www.flickr.com/photos/jforth/4303876035/in/photostream/" />
           <div class="card-body">
+            <!-- Card with information on Dieter Rams -->
             <h2 class="card-title">Life of the Dieter Rams</h2>
             <p class="card-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem
               ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum
               dolor sit amet, consectetur adipiscing elit.
             </p>
+            <!-- Section with subheadings and information on Dieter Rams' early life, education, and design career -->
             <h4 id="earyLifeTab" class="text-end bg-secondary p-2">
               Early Life
             </h4>
@@ -86,19 +97,22 @@
       </div>
       <div class="col-md-6">
         <div class="card">
+          <!-- Card with images of Dieter Rams' most recognizable works -->
           <img class="card-img-top" src="img/revised-braun-logo.jpg" alt="Photo of Dieter Rams"
             cite="https://www.flickr.com/photos/jforth/4303876035/in/photostream/" />
           <div class="card-body">
+            <!-- Card with information on Dieter Rams' most recognizable works -->
             <h2 class="card-title">Most recognizable works</h2>
             <p class="card-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem
               ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum
               dolor sit amet, consectetur adipiscing elit.
             </p>
+            <!-- Section with subheadings and information on Dieter Rams' most recognizable works -->
             <h4 id="earyLifeTab" class="text-end bg-secondary p-2">
               The Oral B Tooth Brush
             </h4>
-            <p id="earyLife" class="card-text ps-4 text-wrap">
+            <p id="earlyLife" class="card-text ps-4 text-wrap">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem
               ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum
               dolor sit amet, consectetur adipiscing elit.
@@ -145,7 +159,7 @@
         </div>
       </div>
     </div>
-<!-- Section for information on rams style and rules of design
+    <!-- Section for information on rams style and rules of design
   ?Need to add JS functions and resize
   TODO:  Fix the size of the 10
   TODO: Style the H3's and P tag with new fonts

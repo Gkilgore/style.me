@@ -1,0 +1,6 @@
+#earlyLife::selection {
+  background: #6C757D;
+}
+*::selection {
+  background: #6C757D;
+}
